@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  font-family: Roboto, sans-serif;
+  color: #F9FAF8;
+}
+
+.hero {
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px;
+  padding: 8px;
+
+}
+
+.logo {}
+
+.menu ul {
+
+  display: flex;
+  color: #F9FAF8;
+  gap: 20px;
+  /* espacio entre links */
+  list-style: none;
+  /* quita viñetas */
+  padding: 0;
+  /* elimina sangría predeterminada */
+  margin: 0;
+}
+
+.info {
+  background-color: #1F2937;
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  margin: 0px;
+  padding: 8px;
+
+}
+
+.info-left {
+  display: flex;
+  flex-direction: column;
+}
+/*.info-right {
+  display: flex;
+}
