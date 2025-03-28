@@ -1,6 +1,14 @@
-body {
+* {
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Roboto;
+  padding: 0;
   margin: 0;
-  font-family: Roboto, sans-serif;
+  border: 0;
+}
+body {
+  height: 100dvh;
+  margin: 0;
   color: #F9FAF8;
   background-color: #fff;
   overflow-x: hidden;
@@ -172,12 +180,14 @@ body {
 }
 
 /* FOOTER */
-footer {
-  background-color: #1F2937;
-  text-align: center;
-  padding: 20px;
-  color: #F9FAF8;
-  font-size: 14px;
+
+.footer {
+  display: flex;
+  background-color: #1f2937;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  height: 72px;
 }
 
 /* ICONOS REDES */
