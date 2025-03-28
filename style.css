@@ -12,7 +12,7 @@ body {
   align-items: center;
   justify-content: space-between;
   margin: 0px;
-  padding: 8px;
+  padding: 20px;
 
 }
 
@@ -35,16 +35,48 @@ body {
   background-color: #1F2937;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content: space-evenly;
   margin: 0px;
   padding: 8px;
+  font-size: 48px;
+  color: #F9FAF8;
+  font-weight: 900;
+
 
 }
 
 .info-left {
   display: flex;
   flex-direction: column;
+  align-items: center;
+
 }
+
+button {
+  background-color: #3882F6;
+  border-color: #3882F6;
+  width: 30%;
+  height: 2em;
+  color: #F9FAF8;
+  border-radius: 10%;
+  margin-bottom: 50px;
+}
+
 /*.info-right {
   display: flex;
+}*/
+.quote {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0px;
+  padding: 8px;
+  color: #1F2937;
+  font-size: 36px;
+  font-weight: 900;
+
+
+
 }
