@@ -7,49 +7,77 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-      <!-- logo + links -->
-       
-    </header>
+     <!-- Header con logo y links -->
+  <header class="header">
+    <div class="logo">
+      <img src="./images/logo.svg" alt="Clave360 logo" width="100px" />
+    </div>
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Link One</a></li>
+        <li><a href="#">Link Two</a></li>
+        <li><a href="#">Link Three</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero section -->  
+    
+    <!--Esta web es maravillosa-->
   
     <section class="hero">
-      <!-- título, subtítulo, imagen, botón -->
-       <div class="logo"><img src="./images/logo.svg" alt="Clave360 logo" width="200px" ></div>
-       <div class="menu">
-        <ul>
-          <li>Link One</li>
-          <li>Link Two</li>
-          <li>Link Three</li>
-        </ul>
-       </div>
-    </section>
+    <div class="hero-left">
+      <h1>Esta Web es maravillosa</h1>
+      <p>La Solución que Estabas Esperando</p>
+      <button type="button">Registrate</button>
+    </div>
+    <div class="hero-right">
+      <img src="./images/tecnologia.svg" alt="Ilustración de tecnología" width="500px" />
+    </div>
+  </section>
+  <!-- Información con 4 items -->
   
     <section class="info">
-      <!-- tarjetas con información -->
-       <div class="info-left">
-        <h2>Esta Web es maravillosa</h2>
-        <h3>La Solución que Estabas Esperando</h3>
-        <button type="button">Registrate</button>
-       </div>
-       <div class="info-right">
-        <img src="./images/tecnologia.svg" width="500px">
-      </div>
-    </section>
-  
-    <section class="quote">
-      <!-- cita o testimonio -->
+      <!-- Nuestras redes sociales -->
        <h2>Nuestras redes sociales</h2>
        <div class="images">
-       <img src="./images/youtube.svg" width="80px">
-       <img src="./images/facebook.svg" width="80px">
-       <img src="./images/instagram.svg" width="80px">
-       <img src="./images/twitter.svg" width="80px">
+        <figure>
+          <img src="./images/youtube.svg" width="80px">
+        <figcaption>Youtube</figcaption>
+        </figure>
+       <figure>
+        <img src="./images/facebook.svg" width="80px">
+        <figcaption>Facebook</figcaption>
+       </figure>
+       <figure>
+        <img src="./images/instagram.svg" width="80px">
+        <figcaption>Instagram</figcaption>
+       </figure>
+      <figure>
+        <img src="./images/twitter.svg" width="80px">
+        <figcaption>Twitter</figcaption>
+      </figure>
+       
+      
       </div>
     </section>
   
-    <section class="cta">
-      <!-- llamada a la acción final -->
-    </section>
+    <!-- Cita inspiradora -->
+  <section class="quote">
+    <p><em>"Desde que uso Clave360, todo en mi negocio es más simple. La presentación, la velocidad y la atención al detalle son excepcionales. ¡Nunca imaginé que una landing page pudiera hacer tanto!"</em></p>
+    <p><strong>–Laura Gómez, Emprendedora Digital</strong></p>
+  </section>
+
+  <!-- Call to action -->
+  <section class="cta">
+    <div class="cta-box">
+      <div class="cta-text">
+        <h3>¡Es momento de actuar!</h3>
+        <p>Registrate en nuestro producto haciendo clic en ese botón de allá.</p>
+      </div>
+      <button>Sign up</button>
+    </div>
+  </section>
   
     <footer>
       <!-- texto de derechos, enlaces, etc. -->
