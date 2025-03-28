@@ -40,5 +40,20 @@ El objetivo de esta landing page es:
 
 ## 📁 Estructura de carpetas
 
-📦 Clave360 ├── index.html ├── styles.css ├── images/ │ └── logo.svg (u otra imagen si aplica) └── README.md
+📦 Clave360 
+├── ./images
+│   ├── ./images/01.png
+│   ├── ./images/02.png
+│   ├── ./images/album_9083566.svg
+│   ├── ./images/facebook.svg
+│   ├── ./images/instagram_1400829.png
+│   ├── ./images/instagram.svg
+│   ├── ./images/logo.png
+│   ├── ./images/logo.svg
+│   ├── ./images/tecnologia.svg
+│   ├── ./images/twitter.svg
+│   └── ./images/youtube.svg
+├── ./index.html
+├── ./README.md
+└── ./style.css
 
